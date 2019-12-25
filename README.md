@@ -32,6 +32,10 @@ ServiceUninstall-MinisMediaServer.exe卸载<br/>
 未授权将不定时断开数据流，打开log文件夹中的log文件，查看里面的key授权码，并加群联系申请
 
 #### 使用说明
+		<link rel="stylesheet" href="video-js.css">
+		<script src="video.js"></script>
+		<script src="minisRtspPlayer.js"></script>
+		
     	//全局设置服务地址
     	//MinisRtspPlayer.defConfig.server = "ws://192.168.1.9:10088";
     	//设置日志级别 Error(默认)、Warn、Log
