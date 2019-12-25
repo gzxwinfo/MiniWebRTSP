@@ -26,7 +26,7 @@ ServiceInstall-MinisMediaServer.exe安装<br/>
 ServiceUninstall-MinisMediaServer.exe卸载<br/>
 
 2.  demo<br/>
-把demo文件夹放到web服务器即可
+把demo文件夹放到web服务器即可 
 
 3.  授权<br/>
 未授权将不定时断开数据流，打开log文件夹中的log文件，查看里面的key授权码，并加群联系申请
