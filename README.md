@@ -18,17 +18,17 @@
 
 #### 安装教程
 
-1.  安装
+1.  安装<br/>
 直接运行<br/>
 MinisMediaServer.exe<br/>
 以服务启动<br/>
 ServiceInstall-MinisMediaServer.exe安装<br/>
 ServiceUninstall-MinisMediaServer.exe卸载<br/>
 
-2.  demo
+2.  demo<br/>
 把demo文件夹放到web服务器即可
 
-3.  授权
+3.  授权<br/>
 未授权将不定时断开数据流，打开log文件夹中的log文件，查看里面的key授权码，并加群联系申请
 
 #### 使用说明
@@ -56,8 +56,8 @@ ServiceUninstall-MinisMediaServer.exe卸载<br/>
     	}
 
 #### 联系我们
-商务合作QQ1：632731369
-商务合作QQ2：35225817
-qq群（MiniWebRTSP技术交流群1，已满）：754701345
-qq群（MiniWebRTSP技术交流群2，已满）：1016354543
-qq群（MiniWebRTSP技术交流群3）：734769486
+商务合作QQ1：632731369<br/>
+商务合作QQ2：35225817<br/>
+qq群（MiniWebRTSP技术交流群1，已满）：754701345<br/>
+qq群（MiniWebRTSP技术交流群2，已满）：1016354543<br/>
+qq群（MiniWebRTSP技术交流群3）：734769486<br/>
