@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="video-js.css">
+	<style>
+		.video-js {	
+			width:400px;
+			height:300px;
+			float: left;
+		}
+		.control {
+			line-height: 50px;
+		}
+		.control label,
+		.control input {margin-right: 10px;}
+
+		.control input {width:666px;}
+	</style>
+</head>	
+<body>		
+	<div class="control">
+		<label>rtsp地址:</label><input type="text" value="rtsp://admin:abc@192.168.3.65:554/h264/ch33/main/av_stream"/><button onclick="doPlay()">播放</button>
+		
+		<button onclick="doStop()">销毁</button>
+		
+	</div>
+	<video class="video-js"id="v1"></video>
+	<script src="video.js"></script>
+	<script src="minisRtspPlayer.js"></script>
+	<script type="text/javascript">
+	
+		//全局设置服务地址
+		//MinisRtspPlayer.defConfig.server = "ws://192.168.1.9:10088";
+		//设置日志级别 Error(默认)、Warn、Log
+		MinisRtspPlayer.defConfig.logLevel = MinisRtspPlayer.LogLevel.Log;
+		var myPlayer = null;
+		function doPlay() {
+			var url = document.querySelector('.control>input').value;
+			if (url == "") {
+				return;
+			}								
+			myPlayer = videojs(document.querySelector("#v1"), {
+				//独立设置服务地址
+				minisRtspPlayerConfig : {
+					server : "ws://127.0.0.1:10088"
+				},
+				controls:true, 
+				controlBar: {			
+					playToggle : false,
+					progressControl : true,
+					audioTrackButton : false,
+					liveDisplay : false
+				}
+			});
+		
+			myPlayer.src({
+				src : url
+			});
+			
+			myPlayer.play();
+		}
+		
+		function doStop(){
+			if(myPlayer != null){
+				myPlayer.dispose();
+			}
+			
+		}
+		
+    </script>
+</body>
+</html>
