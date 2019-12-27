@@ -16,6 +16,14 @@
 - 可到 [https://www.caniuse.com/#search=media%20source%20extensions](https://www.caniuse.com/#search=media%20source%20extensions) 查询浏览器对Media Source Extensions的兼容行
 
 
+#### 视频编码协议
+目前支持H264；H265已纳入未来的版本计划中，敬请关注。
+
+
+#### 音频
+支持AAC、G711U、G711A
+
+
 #### 安装教程
 
 1.  安装<br/>
