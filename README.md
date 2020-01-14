@@ -73,3 +73,6 @@ ServiceUninstall-MinisMediaServer.exe卸载<br/>
 qq群（MiniWebRTSP技术交流群1，已满）：754701345<br/>
 qq群（MiniWebRTSP技术交流群2，已满）：1016354543<br/>
 qq群（MiniWebRTSP技术交流群3）：734769486<br/>
+#### 仓库地址
+码云：[https://gitee.com/xw_1/MiniWebRTSP](https://gitee.com/xw_1/MiniWebRTSP)<br/>
+github：[https://gitee.com/xw_1/MiniWebRTSP](https://gitee.com/xw_1/MiniWebRTSP)<br/>
