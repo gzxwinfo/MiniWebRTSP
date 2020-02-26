@@ -14,7 +14,7 @@
 #### 浏览器兼容性
 - 浏览器需支持**Media Source Extensions** 。
 - 可到 [https://www.caniuse.com/#search=media%20source%20extensions](https://www.caniuse.com/#search=media%20source%20extensions) 查询浏览器对Media Source Extensions的兼容行
-
+- 强烈建议使用高版本Chrome浏览器，可达到最佳使用效果
 
 #### 视频编码协议
 目前支持H264；H265已纳入未来的版本计划中，敬请关注。
